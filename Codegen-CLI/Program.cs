@@ -19,7 +19,7 @@ namespace Codegen_CLI
         private static void Main(string[] args)
         {
             Console.WriteLine(DateTime.UtcNow.ToString("yyyy'-'MM'-'dd'T'HH':'mm':'ss'.'fff'Z'"));
-            Console.WriteLine("Drag and drop your dump.cs file (or a partial of it of the correct format) then press enter...");
+            Console.WriteLine("Enter the path to your DummyDll folder and press enter...");
             string path = @"C:\Users\Sc2ad\Desktop\Code\Android Modding\BeatSaber\1.16.3\DummyDll-Inspector";
             //string path = @"C:\Users\Sc2ad\Desktop\Code\Android Modding\GorillaTag\DummyDll";
             if (!Directory.Exists(path))
